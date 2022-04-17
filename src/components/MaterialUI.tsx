@@ -51,6 +51,38 @@ const MaterialUI: React.FC = () => {
       <Button className={classes.btnStyle} variant="contained" color="primary">
         Test Button
       </Button>
+
+      <Grid container spacing={3} direction="column">
+        <Grid item xs={12} container>
+          <Grid item xs={2}>
+            Demo
+          </Grid>
+          <Grid item xs={8} />
+          <Grid item xs={2}>
+            Test
+          </Grid>
+        </Grid>
+        <Grid item xs={12} justify="space-around" container>
+          <Grid item xs={3}>
+            Tailwind doesn't include pre-designed button styles out of the box,
+            but they're easy to build using existing utilities. Here are a few
+            examples to help you get an idea of how to build components like
+            this using Tailwind.
+          </Grid>
+          <Grid item xs={3}>
+            Tailwind doesn't include pre-designed button styles out of the box,
+            but they're easy to build using existing utilities. Here are a few
+            examples to help you get an idea of how to build components like
+            this using Tailwind.
+          </Grid>
+          <Grid item xs={3}>
+            Tailwind doesn't include pre-designed button styles out of the box,
+            but they're easy to build using existing utilities. Here are a few
+            examples to help you get an idea of how to build components like
+            this using Tailwind.
+          </Grid>
+        </Grid>
+      </Grid>
     </div>
   );
 };
